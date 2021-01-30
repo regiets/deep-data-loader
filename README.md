@@ -20,6 +20,6 @@ const userLoader = new DeepDataLoader((primaryKeys, secondaryKeys) => batchLoadF
 
 Each instance of the `DeepDataLoader` class represents a unique cache. This cache can be initialised once per app or once per request.
 
-⚠️ If the cache is initialised per application, it may lead to an unintended memory leak.
+⚠️  If the cache is initialised per application, it may lead to an unintended memory leak.
 
-The keys of the `batchLoadFn` should be supplies as arrays of any type. Using structural types (non-primitive types) such as objects or arrays is possible but matching is done by reference (remember `{a: 1} !== {a: 1}`).
+The keys accepted by the `batchLoadFn` should be in the form of arrays of any type. Using arrays of structural types (non-primitive types) such as objects or arrays is possible but matching is done by reference (remember `{a: 1} !== {a: 1}`).
