@@ -1,0 +1,15 @@
+{
+  "name": "deep-data-loader",
+  "version": "0.0.1",
+  "description": "A utility for batching and caching requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "batching",
+    "caching"
+  ],
+  "author": "Philipp Steiger",
+  "license": "MIT"
+}
