@@ -8,7 +8,8 @@
   },
   "keywords": [
     "batching",
-    "caching"
+		"caching",
+		"GraphQL"
   ],
   "author": "Philipp Steiger",
   "license": "MIT"
